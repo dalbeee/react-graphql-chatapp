@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "app_users",
+  "info": {
+    "name": "appUser"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "uid": {
+      "type": "uid"
+    }
+  }
+}

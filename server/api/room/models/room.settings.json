@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rooms",
+  "info": {
+    "name": "room",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "chats": {
+      "collection": "chat",
+      "via": "room"
+    },
+    "uid": {
+      "type": "uid"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

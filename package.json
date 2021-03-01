@@ -1,0 +1,17 @@
+{
+  "name": "1-test-strapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "backend_dev": "cd server && npm run develop",
+    "frontend_dev": "cd client && npm run start",
+    "dev": "concurrently \"npm run backend_dev\" \"npm run frontend_dev\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^6.0.0"
+  }
+}
